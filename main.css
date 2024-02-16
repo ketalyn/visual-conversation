@@ -136,20 +136,18 @@ body {
     left: 0;
     width: 80%;
     height: 100%;
-    opacity: 0; /* Initially hide the image */
-    transition: opacity 1s ease; /* Add smooth transition for opacity changes */
+    opacity: 0;
+    transition: opacity 1s ease;
 }
 
 
 @media (max-width: 768px) {
-    /* Adjust row height for smaller screens */
     .row {
       height: 80px;
     }
   }
 
   @media (max-width: 576px) {
-    /* Further adjust row height for extra small screens */
     .row {
       height: 60px;
     }
