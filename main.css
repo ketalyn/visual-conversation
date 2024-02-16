@@ -1,0 +1,214 @@
+html{
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Neue Haas Black', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    margin:0;
+    padding: 5rem 2rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    z-index: 2;
+    position: relative;
+}
+
+
+.row1{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.row2{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.row3{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.row4{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#video-container {
+    display: none;
+}
+
+.row5{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.row6{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.split-button{
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row7{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.row8{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.row9{
+    padding: 20px;
+    padding-top: 200px;
+    margin-bottom: 10px;
+    height: 400px;
+    margin-top: 20px;
+    font-size: 4rem;
+}
+
+.row10{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.row11{
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.Evelyn{
+    text-align: right;
+    font-family: 'Sligoli', monospace;
+    font-size: 2rem;
+}
+
+.Jobu{
+    text-align: left;
+    font-size: 3rem;
+    width: 80%;
+    transition: box-shadow 0.3s ease;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#reveal-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    opacity: 0; /* Initially hide the image */
+    transition: opacity 1s ease; /* Add smooth transition for opacity changes */
+}
+
+
+@media (max-width: 768px) {
+    /* Adjust row height for smaller screens */
+    .row {
+      height: 80px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    /* Further adjust row height for extra small screens */
+    .row {
+      height: 60px;
+    }
+  }
+
+.font1 {font-family: 'Karrik', sans-serif;}
+.font2 {font-family: 'Typefesse-Calire-Obscure';}
+.font3 {font-family: 'Typefesse-Pleine';}
+.font4 {font-family: 'Outward';}
+.font5 {font-family: 'Gulax';}
+.font6 {font-family: 'Pilowlava';}
+.font7 {font-family: 'Grotesk';}
+.font8 {font-family: 'Lithops';}
+.font9 {font-family: 'Fungal';}
+.font10 {font-family: 'Bianzhidai';}
+
+@font-face {
+    font-family: 'Sligoli';
+    src: url('/assets/Sligoil-Micro.woff') format('woff'),
+        url('assets/Sligoil-Micro.woff2') format('woff2');
+
+    font-family: 'Karrik';
+    src: url('/assets/Karrik-Regular.woff') format('woff'),
+        url('assets/Karrik-Regular.woff2') format('woff2'),
+        url('/assets/Karrik-Italic.woff') format('woff'),
+        url('assets/Karrik-Italic.woff2') format('woff2');
+
+    font-family: 'Typefesse-Claire-Obscure';
+    src: url('/assets/Typefesse_Claire-Obscure.woff') format('woff'),
+        url('assets/Typefesse_Claire-Obscure.woff2') format('woff2');
+
+    font-family: 'Typefesse-Pleine';
+    src: url('/assets/Typefesse_Pleine.woff') format('woff'),
+        url('assets/Typefesse_Pleine.woff2') format('woff2');
+
+    font-family: 'Outward';
+    src: url('/assets/outward-block-webfont.woff') format('woff'),
+        url('assets/outward-block-webfont.woff2') format('woff2');
+
+    font-family: 'Gulax';
+    src: url('/assets/Gulax-Regular.woff') format('woff'),
+        url('assets/Gulax-Regular.woff2') format('woff2');
+
+    font-family: 'Pilowlava';
+    src: url('/assets/Pilowlava-Regular.woff') format('woff'),
+        url('assets/Pilowlava-Regular.woff2') format('woff2');
+
+    font-family: 'Grotesk';
+    src: url('/assets/Grotesk-02Mince.woff') format('woff'),
+        url('assets/Grotesk-02Mince.woff2') format('woff2');
+
+    font-family: 'Lithops';
+    src: url('/assets/Lithops-Regular.woff') format('woff'),
+        url('assets/Lithops-Regular.woff2') format('woff2');
+
+    font-family: 'Fungal';
+    src: url('/assets/Fungal-Grow100Thickness500.woff') format('woff'),
+        url('assets/Fungal-Grow100Thickness500.woff2') format('woff2');
+
+    font-family: 'Bianzhidai';
+    src: url('/assets/bianzhidai_noBG-Bubble.woff') format('woff');
+}
